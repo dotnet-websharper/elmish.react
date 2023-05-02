@@ -12,13 +12,13 @@ NUGET
     WebSharper (7.0.0.289-beta1)
       FSharp.Core (>= 6.0)
       System.Reflection.Emit.Lightweight (>= 4.7)
-    WebSharper.Elmish (4.0.1.291)
+    WebSharper.Elmish (4.0.1.292)
       FSharp.Core (>= 6.0.7)
       WebSharper (>= 7.0.0.289-beta1)
       WebSharper.FSharp (>= 7.0.0.289-beta1)
     WebSharper.FSharp (7.0.0.289-beta1)
       WebSharper (7.0.0.289-beta1)
-    WebSharper.React (7.0.0.291-beta1)
+    WebSharper.React (7.0.0.292-beta1)
       WebSharper (>= 7.0 < 7.1)
 
 GROUP wsbuild
