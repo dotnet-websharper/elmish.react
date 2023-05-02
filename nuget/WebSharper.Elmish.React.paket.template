@@ -1,5 +1,5 @@
 type file
-id WebSharper.React
+id WebSharper.Elmish.React
 authors IntelliFactory
 owners IntelliFactory
 projectUrl https://websharper.com/
