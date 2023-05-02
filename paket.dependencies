@@ -1,0 +1,18 @@
+source https://api.nuget.org/v3/index.json
+source https://nuget.pkg.github.com/dotnet-websharper/index.json
+source ../localnuget
+
+framework: netstandard2.0, netcoreapp2.1, netcoreapp3.1, net5.0
+
+storage: none
+strategy: min
+
+nuget Elmish
+
+nuget WebSharper prerelease
+nuget WebSharper.FSharp prerelease
+nuget WebSharper.Elmish prerelease
+nuget WebSharper.React prerelease
+
+group wsbuild
+    git https://github.com/dotnet-websharper/build-script websharper50

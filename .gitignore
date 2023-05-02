@@ -1,0 +1,15 @@
+packages/
+*.suo
+*.user
+Properties/
+bin/
+obj/
+Content/
+build/
+/.vs/config/applicationhost.config
+bin/
+obj/
+/.fake/
+/paket-files/
+/.vscode/
+.vs/

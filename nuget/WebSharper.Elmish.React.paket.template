@@ -1,0 +1,19 @@
+type file
+id WebSharper.React
+authors IntelliFactory
+owners IntelliFactory
+projectUrl https://websharper.com/
+repositoryType git
+repositoryUrl https://github.com/dotnet-websharper/elmish.react
+licenseUrl http://github.com/intellifactory/websharper.react/blob/master/LICENSE.md
+iconUrl https://github.com/dotnet-websharper/core/raw/websharper50/tools/WebSharper.png
+description
+    WebSharper abstraction for Elmish.React.
+tags
+    Web JavaScript F# C#
+files
+    ../WebSharper.Elmish.React/bin/Release/netstandard2.0/WebSharper.Elmish.React.dll ==> lib/netstandard2.0
+    ../WebSharper.Elmish.React/bin/Release/netstandard2.0/WebSharper.Elmish.React.xml ==> lib/netstandard2.0
+dependencies
+    framework: netstandard2.0
+            WebSharper ~> LOCKEDVERSION:[3]
