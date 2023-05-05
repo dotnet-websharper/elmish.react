@@ -95,8 +95,8 @@ module Helpers =
     open WebSharper.JavaScript.Pervasives
     /// `Ref` callback that sets the value of an input textbox after DOM element is created.
     /// Can be used instead of `DefaultValue` and `Value` props to override input box value.
-    let inline valueOrDefault (value: string): IHTMLProp =
-        As<IHTMLProp> ("ref", Internal.updateInputValue value)
+    let inline valueOrDefault (value: string): WebSharper.React.Props.WSHTMLProp =
+        WebSharper.React.Props.HTMLAttr.Custom ("ref", Internal.updateInputValue value)
 
 [<RequireQualifiedAccess>]
 module Program =
@@ -227,10 +227,6 @@ module ReactNative =
 
             override this.Render () =
                 this.State.render()
-
-    //FIXME I don't know what to do with this
-    type ReactNative() =
-        inherit BaseResource("what.js")
 
     //FIXME Require react-native resource
     type AppRegistry =
