@@ -11,7 +11,7 @@ nuget Elmish
 
 nuget WebSharper prerelease
 nuget WebSharper.FSharp prerelease
-nuget WebSharper.Elmish prerelease
+nuget WebSharper.Elmish < 4.0.2 prerelease
 nuget WebSharper.React prerelease
 
 group wsbuild
