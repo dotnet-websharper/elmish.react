@@ -40,6 +40,16 @@ open WebSharper.Fake
 
 let targets =
     LazyVersionFrom "WebSharper" |> WSTargets.Default
+    |> fun args ->
+        { args with
+            Attributes =
+                    [
+                        AssemblyInfo.Company "IntelliFactory"
+                        AssemblyInfo.Copyright "(c) IntelliFactory 2023"
+                        AssemblyInfo.Title "https://github.com/dotnet-websharper/elmish.react"
+                        AssemblyInfo.Product "WebSharper Elmish.React"
+                    ]
+        }
     |> MakeTargets
 
 Target.create "AppVeyor" ignore
