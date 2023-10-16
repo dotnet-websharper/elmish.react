@@ -1,6 +1,6 @@
 ﻿namespace WebSharper.Elmish.React
 
-open WebSharper.React.Bindings
+open WebSharper.React
 open WebSharper.JavaScript
 open Elmish
 open WebSharper.Core.Resources
@@ -104,7 +104,7 @@ module Program =
     module Internal =
 
         open Elmish
-        open WebSharper.React.ReactDOM.Bindings
+        open WebSharper.React.ReactDOM
         open WebSharper.JavaScript
 
         // Use the new rendering API in React 18+
