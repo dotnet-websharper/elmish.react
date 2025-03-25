@@ -3,22 +3,22 @@ STRATEGY: MIN
 RESTRICTION: || (== net5.0) (== netcoreapp2.1) (== netcoreapp3.1) (== netstandard2.0)
 NUGET
   remote: https://api.nuget.org/v3/index.json
-    Elmish (4.2)
+    Elmish (4.3)
     FSharp.Core (8.0.403)
     System.Reflection.Emit.ILGeneration (4.7) - restriction: || (&& (== net5.0) (< netcoreapp2.0) (< netstandard2.1)) (&& (== net5.0) (< netstandard2.0)) (&& (== net5.0) (< portable-net45+wp8)) (&& (== net5.0) (>= uap10.1)) (&& (== netcoreapp2.1) (< netcoreapp2.0)) (&& (== netcoreapp2.1) (< netstandard2.0)) (&& (== netcoreapp2.1) (< portable-net45+wp8)) (&& (== netcoreapp2.1) (>= uap10.1)) (&& (== netcoreapp3.1) (< netcoreapp2.0) (< netstandard2.1)) (&& (== netcoreapp3.1) (< netstandard2.0)) (&& (== netcoreapp3.1) (< portable-net45+wp8)) (&& (== netcoreapp3.1) (>= uap10.1)) (== netstandard2.0)
     System.Reflection.Emit.Lightweight (4.7)
       System.Reflection.Emit.ILGeneration (>= 4.7) - restriction: || (&& (== net5.0) (< netcoreapp2.0) (< netstandard2.1)) (&& (== net5.0) (< netstandard2.0)) (&& (== net5.0) (< portable-net45+wp8)) (&& (== net5.0) (>= uap10.1)) (&& (== netcoreapp2.1) (< netcoreapp2.0)) (&& (== netcoreapp2.1) (< netstandard2.0)) (&& (== netcoreapp2.1) (< portable-net45+wp8)) (&& (== netcoreapp2.1) (>= uap10.1)) (&& (== netcoreapp3.1) (< netcoreapp2.0) (< netstandard2.1)) (&& (== netcoreapp3.1) (< netstandard2.0)) (&& (== netcoreapp3.1) (< portable-net45+wp8)) (&& (== netcoreapp3.1) (>= uap10.1)) (== netstandard2.0)
   remote: https://nuget.pkg.github.com/dotnet-websharper/index.json
-    WebSharper (8.0.0.536-rc2)
+    WebSharper (8.0.0.540)
       FSharp.Core (>= 6.0)
       System.Reflection.Emit.Lightweight (>= 4.7)
-    WebSharper.Elmish (4.0.2.536-beta1)
+    WebSharper.Elmish (4.0.2.540-beta1)
       FSharp.Core (>= 8.0.403)
-      WebSharper (>= 8.0.0.536-rc2)
-      WebSharper.FSharp (>= 8.0.0.536-rc2)
-    WebSharper.FSharp (8.0.0.536-rc2)
-      WebSharper (8.0.0.536-rc2)
-    WebSharper.React (8.0.0.536-rc2)
+      WebSharper (>= 8.0.0.540)
+      WebSharper.FSharp (>= 8.0.0.540)
+    WebSharper.FSharp (8.0.0.540)
+      WebSharper (8.0.0.540)
+    WebSharper.React (8.0.0.540)
       WebSharper (>= 8.0 < 8.1)
 
 GROUP wsbuild
