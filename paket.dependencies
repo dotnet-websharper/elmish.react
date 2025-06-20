@@ -9,10 +9,10 @@ strategy: min
 
 nuget Elmish
 
-nuget WebSharper prerelease
-nuget WebSharper.FSharp prerelease
-nuget WebSharper.Elmish < 4.0.3 prerelease
-nuget WebSharper.React prerelease
+nuget WebSharper ~> 9.0
+nuget WebSharper.FSharp ~> 9.0
+nuget WebSharper.Elmish < 4.0.3 ~> 9.0
+nuget WebSharper.React ~> 9.0
 
 group wsbuild
     git https://github.com/dotnet-websharper/build-script websharper80
